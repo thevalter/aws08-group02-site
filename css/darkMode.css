@@ -1,9 +1,9 @@
   .dark,
-  .dark .menu {
+  .dark .menu.active {
       background-color: #263238;
   }
 
-  .dark h1 {
+  .dark .logo {
       color: #FFF;
   }
 
@@ -13,13 +13,12 @@
 
   .dark .bi-moon {
       display: block;
-      color: #eae7e7;
+      color: #f5f1f1;
   }
-
-  .dark .sideMenu i {
-      color: #e0dfdf;
-  }
-
-  .dark .links a{
-    color: #96a2bc;
+  
+  .dark .links a,
+  .dark .sideMenu i,
+  .dark .home-info h2,
+  .dark .home-info > span{
+    color: #f5f1f1;
   }
