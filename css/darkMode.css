@@ -19,6 +19,7 @@
   .dark .links a,
   .dark .sideMenu i,
   .dark .home-info h2,
-  .dark .home-info > span{
+  .dark .home-info > span,
+  .dark .benefits-cards .card p{
     color: #f5f1f1;
   }
