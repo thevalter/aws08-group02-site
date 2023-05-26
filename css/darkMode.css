@@ -3,7 +3,9 @@
       background-color: #263238;
   }
 
-  .dark .logo {
+  .dark .logo,
+  .dark footer h2,
+  .dark .services .card h4{
       color: #FFF;
   }
 
@@ -15,11 +17,24 @@
       display: block;
       color: #f5f1f1;
   }
+
+  .dark .home-container .home-info h2 span,
+  .dark .benefits-container>h3,
+  .dark .benefits-cards .card h4,
+  .dark .about-container>h3,
+  .services-container>h3,
+  .dark .contact-container h3{
+    color: #778cce;
+  }
   
   .dark .links a,
   .dark .sideMenu i,
   .dark .home-info h2,
   .dark .home-info > span,
-  .dark .benefits-cards .card p{
+  .dark .benefits-cards .card p,
+  .dark .about-container .about-info p,
+  .dark .services .card p,
+  .dark .contact-container h3,
+  .dark .contact-container div span{
     color: #f5f1f1;
   }
