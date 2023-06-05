@@ -98,6 +98,10 @@
   .links a {
     margin-right: 0;
   }
+
+  .card-image .card span{
+    font-size: .9rem;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -116,11 +120,11 @@
   .about-container .card-image{
     width: 100%;
   }
-  
-  .card-image .card span{
-    font-size: .9rem;
-  }
 
+  .card-image .card span{
+    font-size: .8rem;
+  }
+  
   .contact-container {
     flex-direction: column;
     align-items: start;
